@@ -11,6 +11,10 @@ public interface RolRepositorio extends CrudRepository<Rol, Integer> {
 	Rol findById(Integer id);
 	
 
+	/**
+	 * sadasdasdasdasdasdasdasd Omentario
+	 */
+	
 	//@Query("select p from Paquete p where p.codigo = ?1")
 	//Paquete buscarPorCodigo(String codigo);
 }
